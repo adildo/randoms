@@ -1,0 +1,56 @@
+* {
+    font-family: Chalkduster, fantasy;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 218, 212);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+} 
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+}
+.choice {
+    padding: 18px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img {
+    border-radius: 16px;l
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.round-result {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    padding: 0;
+}
+
+.res {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px;
+}
+#outcome {
+    background-color: blue;
+    color: white;
+}
